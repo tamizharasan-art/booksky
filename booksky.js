@@ -47,3 +47,8 @@ function deleteCard(event){
 
 //blah balh abolalkdfoihjnfkinhfkd
 
+function dom(){
+    event.delete()
+}
+
+
