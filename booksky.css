@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar_container{
+    background-color: #fd6569;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+}
+
+.master_container{
+    padding: 70px 50px;
+}
+
+.card_container{
+    width: 25%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    display: inline-block;
+    margin-right: 80px;
+    vertical-align: top;
+    
+}
+
+.card_container h2{
+    color: #fd6569;
+}
+
+.card_container button{
+    background-color: #fd6569;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.add_button{
+    background-color: #fd6569;
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    color:black;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    font-size: 50px;
+}
+
+.popup_bg{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.popup{
+    z-index: 2;
+    background-color: #fd6589;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    width: 40%;
+    padding: 40px;
+    display: none;
+}
+
+.popup input{
+    background: transparent;
+    border: none;
+    color:black;
+    width: 100%;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    margin: 10px 0px;
+    
+}
+
+.popup textarea{
+    background: transparent;
+    color:black;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 10px 0px;
+
+    
+}
+
+.popup input::placeholder{
+    color: black;
+}
+
+.popup textarea::placeholder{
+    color: black;
+}
+
+.popup input:focus{
+    outline: none;
+}
+
+.popup textarea:focus{
+    outline: none;
+}
+
+.popup button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px; 
+}
